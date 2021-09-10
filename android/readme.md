@@ -4,5 +4,3 @@ Fragment B : Naver 파파고 API 가져와서 한->영 번역기 만들기
 Fragment C : 영화진흥위원회의 API 받아와서 영화 순위 만들기
 
 https://github.com/Const4nt0228/myStudy/tree/main/android/KotlinPractice
-
-![image](https://user-images.githubusercontent.com/66546156/132824642-7ee75bd0-c7b7-45a6-b8b9-5090c6234f05.png)
