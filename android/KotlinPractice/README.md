@@ -12,9 +12,9 @@
 
 참조 코드는 이거였는데
 
-  recyclerView = findViewById(R.id.rv_result)
-  recyclerView.adapter = ResultRecyclerViewAdpater()
-  recyclerView.layoutManager = LinearLayoutManager(applicationContext)
+    recyclerView = findViewById(R.id.rv_result)
+    recyclerView.adapter = ResultRecyclerViewAdpater()
+    recyclerView.layoutManager = LinearLayoutManager(applicationContext)
 
 예전에 수업들을때는 코틀린에서는 findViewById를 사용하지 않고도 불러올수 있다고 했었다
 
