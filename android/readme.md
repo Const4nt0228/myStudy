@@ -39,4 +39,6 @@ app단위 gradle에 요 코드를 추가하거나
 
  	recyclerView.layoutManager = LinearLayoutManager(activity?.applicationContext)
  
- 얘를 사용하면 
+ 얘를 사용하면 된다고한다.
+ 
+ 코틀린코드는 참 편리하지만 어려운듯..
