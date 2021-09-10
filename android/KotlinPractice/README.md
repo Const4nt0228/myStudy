@@ -22,7 +22,7 @@
 
 나중에 알아보니까 안드로이드 4.1부터는 안쓴다고 하더라 
 
-app단위 gradle에 요 코드를 추가하거나
+굳이 쓴다 하면 app단위 gradle에 요 코드를 추가하거나
 
  	 apply plugin: 'com.android.application'
  	 apply plugin: 'kotlin-android'
