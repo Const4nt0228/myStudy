@@ -6,7 +6,9 @@
 
 # 코드 작성시 애먹었던 사항
 
-1. 코틀린 코드 (context와 xml의 요소 불러오기)
+1. 코틀린 코드 
+
+(context와 xml의 요소 불러오기)
 
 참조 코드는 이거였는데
 
@@ -31,3 +33,10 @@ app단위 gradle에 요 코드를 추가하거나
  	 import kotlinx.android.synthetic.main.activity_main.*
 
 을 추가하라고 함
+
+
+그리고 applicationContext는 
+
+ recyclerView.layoutManager = LinearLayoutManager(activity?.applicationContext)
+ 
+ 얘를 사용하면 
