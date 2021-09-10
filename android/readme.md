@@ -22,12 +22,12 @@ recyclerView.layoutManager = LinearLayoutManager(applicationContext)
 
 app단위 gradle에 요 코드를 추가하거나
 
-  apply plugin: 'com.android.application'
-  apply plugin: 'kotlin-android'
-  apply plugin: 'kotlin-android-extensions'
+ 	 apply plugin: 'com.android.application'
+ 	 apply plugin: 'kotlin-android'
+ 	 apply plugin: 'kotlin-android-extensions'
 
 아니면 
 
-  import kotlinx.android.synthetic.main.activity_main.*
+ 	 import kotlinx.android.synthetic.main.activity_main.*
 
 을 추가하라고 함
