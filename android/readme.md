@@ -27,5 +27,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 아니면 
+
 import kotlinx.android.synthetic.main.activity_main.*
-을 추가하라고 
+
+을 추가하라고 함
