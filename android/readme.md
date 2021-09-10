@@ -37,6 +37,6 @@ app단위 gradle에 요 코드를 추가하거나
 
 그리고 applicationContext는 
 
- recyclerView.layoutManager = LinearLayoutManager(activity?.applicationContext)
+ 	recyclerView.layoutManager = LinearLayoutManager(activity?.applicationContext)
  
  얘를 사용하면 
