@@ -3,6 +3,10 @@ plugins {
     id 'kotlin-android'
 }
 
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions' // 익스텐션 플러그인 적용
+
 android {
     compileSdk 30
 

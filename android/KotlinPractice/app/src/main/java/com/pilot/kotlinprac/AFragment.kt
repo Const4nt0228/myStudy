@@ -52,7 +52,7 @@ import retrofit2.converter.gson.GsonConverterFactory
                  call: Call<ResultGetSearchNews>,
                  response: Response<ResultGetSearchNews>
              ) {
-                 Log.d(ContentValues.TAG, "연결 성공 : ${response.raw()}")
+                 Log.d(ContentValues.TAG, "연결 성공 : ${response.body()}")
                  af1 = view.findViewById(R.id.texViewA)
                  af1.setText(response.body().toString())
              }

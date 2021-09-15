@@ -27,11 +27,7 @@ public class BFragment : Fragment() {
         .baseUrl(BASE_URL_NAVER_API)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
-
     val api2 = retrofit.create(NaverAPI2::class.java)
-
-    //var callPostTransferPapago = api2.transferPapago(CLIENT_ID,CLIENT_SECRET,"ko","en",myText)
-
 
 
     private lateinit var bf1 : TextView
@@ -61,7 +57,7 @@ public class BFragment : Fragment() {
                     call: Call<ResultTransferPapago>,
                     response: Response<ResultTransferPapago>
                 ) {
-                    Log.d(ContentValues.TAG, "성공 : ${response.body()}")
+                    Log.d(ContentValues.TAG, "성공 : ${response.raw()}")
 
                     val papagoResponse = response.body()
                     var tText : String = papagoResponse!!.message!!.result!!.translatedText!!

@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity() {
 
         val btn_A = findViewById<Button>(R.id.btn_fragmentA)
         val btn_B = findViewById<Button>(R.id.btn_fragmentB)
+        val btn_C = findViewById<Button>(R.id.btn_fragmentC)
+        val btn_D = findViewById<Button>(R.id.btn_fragmentD)
 
 
      /*   callGetSearchNews.enqueue(object : Callback<ResultGetSearchNews> {
@@ -71,6 +73,19 @@ class MainActivity : AppCompatActivity() {
         btn_B.setOnClickListener {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.frameLayout, BFragment())
+                .commit()
+
+        }
+
+        btn_C.setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.frameLayout, CFragment())
+                .commit()
+
+        }
+        btn_D.setOnClickListener {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.frameLayout, DFragment())
                 .commit()
 
         }
