@@ -1,7 +1,7 @@
 # Android 프로젝트
 
-[go](https://github.com/Const4nt0228/myStudy/tree/main/android)
+[Android Kotlin Go!](https://github.com/Const4nt0228/myStudy/tree/main/android)
 
 # Python 프로젝트
 
-https://github.com/Const4nt0228/myStudy/tree/main/python/python-crawling
+[Python 3 Go!]https://github.com/Const4nt0228/myStudy/tree/main/python/python-crawling
